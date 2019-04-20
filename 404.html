@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset=UTF-8 />
+		<meta name="robots" content="noindex,nofollow,noarchive">
+		<title>404 Not Found | PCC-Studio</title>
+
+
+		<style>
+			body {
+				padding: 0;
+				margin: 0;
+				text-align: center;
+				background: #eeeeee;
+				padding: 30px 0 30px 0;
+				font-family: sans-serif, Arial, Helvetica, monospace;
+			}
+
+			a {
+				text-decoration: none;
+				color: #17a167
+			}
+
+			div {
+				margin: auto;
+				max-width: 700px;
+			}
+
+			abbr {
+				text-decoration: none;
+			}
+
+			.div01 {
+				border: 2px solid#17a167;
+				border-top-left-radius: 8px;
+				border-top-right-radius: 8px;
+				background: #17a167;
+				color: #fff;
+			}
+
+			.div02 {
+				border: 2px solid#fff;
+				background: #fff;
+				padding-bottom: 25px;
+			}
+
+			.div03 {
+				border: 2px solid#fff;
+				background: #fff;
+				padding-bottom: 25px;
+				border-bottom-left-radius: 8px;
+				border-bottom-right-radius: 8px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="div01">
+			<h1 style="font-size: 30px">
+				<strong>
+					<a href="https://www.deltarunecn.com" style="color:#fff">DeltaruneCN</a>
+				</strong>
+			</h1>
+		</div>
+		<div class="div02">
+			<div style="width: 530px;">
+				<div style="padding-top: 25px;">
+					<h2>404 Not Found</h2>
+					<p>
+						你访问的页面不存在.<br /><span style="color:#d5d5d5">(<s>就算存在也不会给你看.</s>)</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="div03">
+			<div style="width: 650px;border-top: 2px solid#eeeeee;">
+				<div style="color:#d5d5d5;font-size: 15px;font-weight: lighter;">
+					<p><span>
+							Copyright &copy; 2017-2019
+							<a href="https://www.pccstudio.com/" style="color: #d5d5d5;">
+								PCC-Studio
+							</a>
+						</span>
+						<span>&nbsp;&middot;&nbsp;</span>
+						Powered by <a href="https://www.pccstudio.com/" style="color: #d5d5d5;">PCC-Studio</a>
+				</div>
+			</div>
+		</div>
+		<script>
+			console.log(
+				'%c  _____     _____    _____             _____   _                 _   _          \n |  __ \\   / ____|  / ____|           / ____| | |               | | (_)         \n | |__) | | |      | |       ______  | (___   | |_   _   _    __| |  _    ___   \n |  ___/  | |      | |      |______|  \\___ \\  | __| | | | |  / _  | | |  / _ \\  \n | |      | |____  | |____            ____) | | |_  | |_| | | (_| | | | | (_) | \n |_|       \\_____|  \\_____|          |_____/   \\__|  \\____|  \\____| |_|  \\___/  \n                                                                                \nPowered by PCC-Studio',
+				'background:#fff;color:#17A167'
+			);
+			console.log(
+				'%c404 Not Found',
+				'background:#fff;color:#FF0000'
+			);
+
+			console.log(getCurrentDate());
+
+			function getCurrentDate() {
+				var date = new Date();
+				var seperator1 = "-";
+				var seperator2 = ":";
+				var hours = date.getHours()
+				var minutes = date.getMinutes()
+				var seconds = date.getSeconds()
+				var month = date.getMonth() + 1;
+				var strDate = date.getDate();
+				if (month >= 1 && month <= 9) {
+					month = "0" + month;
+				}
+				if (strDate >= 0 && strDate <= 9) {
+					strDate = "0" + strDate;
+				}
+				if (hours >= 0 && hours <= 9) {
+					hours = "0" + hours;
+				}
+				if (minutes >= 0 && minutes <= 9) {
+					minutes = "0" + minutes;
+				}
+				if (seconds >= 0 && seconds <= 9) {
+					seconds = "0" + seconds;
+				}
+				var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate +
+					" " + hours + seperator2 + minutes +
+					seperator2 + seconds;
+				return currentdate;
+			}
+		</script>
+	</body>
+
+</html>
