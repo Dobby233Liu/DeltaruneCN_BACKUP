@@ -1,4 +1,4 @@
-html {
+﻿html {
   position: relative;
 }
 
@@ -10,7 +10,7 @@ a {
   font-family: "NotoSansCJK";
   src: local('NotoSansCJK Regular'),
     local('NotoSansCJK-Regular'),
-    url("/assets/fonts/NotoSansCJK-Regular.ttf") format("truetype");
+    url("../assets/fonts/NotoSansCJK-Regular.ttf") format("truetype");
   font-weight: 400
 }
 
@@ -18,7 +18,7 @@ a {
   font-family: "NotoSansCJK";
   src: local('NotoSansCJK Medium'),
     local('NotoSansCJK-Medium'),
-    url("/assets/fonts/NotoSansCJK-Medium.ttf") format("truetype");
+    url("../assets/fonts/NotoSansCJK-Medium.ttf") format("truetype");
   font-weight: 500
 }
 
@@ -26,7 +26,7 @@ a {
   font-family: "NotoSansCJK";
   src: local('NotoSansCJK Bold'),
     local('NotoSansCJK-Bold'),
-    url("/assets/fonts/NotoSansCJK-Bold.ttf") format("truetype");
+    url("../assets/fonts/NotoSansCJK-Bold.ttf") format("truetype");
   font-weight: 700
 }
 
@@ -34,7 +34,7 @@ a {
   font-family: "JF-Dot-Shinonome14";
   src: local('JF-Dot-Shinonome14'),
     local('JF-Dot-Shinonome14'),
-    url("/assets/fonts/JF-Dot-Shinonome14.ttf") format("truetype");
+    url("../assets/fonts/JF-Dot-Shinonome14.ttf") format("truetype");
   font-weight: 700
 }
 
@@ -50,7 +50,7 @@ a {
   font-family: "8bitOperatorPlus";
   src: local('8bitOperatorPlus-Regular'),
     local('8bitOperatorPlus-Regular'),
-    url("/assets/fonts/8bitOperatorPlus-Regular.ttf") format("truetype");
+    url("../assets/fonts/8bitOperatorPlus-Regular.ttf") format("truetype");
   font-weight: 700
 }
 ::-webkit-scrollbar {
@@ -317,7 +317,7 @@ footer a {
 }
 
 #background {
-  background: url("/assets/images/utbg.png");
+  background: url("../assets/images/utbg.png");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -352,7 +352,7 @@ footer a {
   right: 0;
   margin-top: -38px;
   height: 300px;
-  background: url("/assets/images/utribbon.png");
+  background: url("../assets/images/utribbon.png");
   background-repeat: no-repeat;
   background-position: center;
 }
