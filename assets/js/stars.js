@@ -33,6 +33,6 @@ function appendStar(x, y, big) {
 		star = Math.floor(Math.random() * 5) + 1;
 	}
 	var delay = Math.floor(Math.random() * 6) + 1;
-	$("#stars").append("<img src='/assets/images/star" + star + ".png' style='margin-left: " + x + "px; margin-top: " +
+	$("#stars").append("<img src='./assets/images/star" + star + ".png' style='margin-left: " + x + "px; margin-top: " +
 		y + "px; animation-delay: -" + delay + "s' />");
 }
